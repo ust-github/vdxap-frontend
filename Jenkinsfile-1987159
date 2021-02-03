@@ -44,7 +44,7 @@ pipeline {
    sh script: 'helm repo add vdxap-frontend https://artifactory.dagility.com/artifactory/helm --username $USER --password $PASS ', label: 'v8rljh' 
 }
         sh script: 'helm repo update', label: 'xkb2da'
-        sh script: 'helm upgrade vdxap-frontend-deployment vdxap-frontend/vdxap-frontend-chart --install --values chart-values.yaml --namespace habitat-test-5', label: 'j0myop'
+        sh script: 'helm upgrade vdxap-frontend-deployment vdxap-frontend/vdxap-frontend-chart --install --values chart-values.yaml --namespace habitat-live', label: 'j0myop'
       } //end steps
     } // end stage Deploy
   }
