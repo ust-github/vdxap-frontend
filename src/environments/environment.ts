@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  basePath: `$https://vdxap-backend-habitat-test-5.dagility.com/`,
+  basePath: `$https://vdxap-backend-habitat-live.dagility.com/`,
 };
 
 /*
